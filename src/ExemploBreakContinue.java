@@ -1,7 +1,7 @@
 public class ExemploBreakContinue {
     public static void main(String[] args) {
-        for(int numero=1; numero<=5; numero++){
-            if(numero ==3)
+        for(int numero=1; numero<=1000000000; numero++){
+            if(numero%2==1)
             continue;
             System.out.println(numero);
         }
